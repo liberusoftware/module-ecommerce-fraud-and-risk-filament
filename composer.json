@@ -1,0 +1,23 @@
+{
+  "name": "liberusoftware/ecommerce-fraud-and-risk-filament",
+  "description": "Fraud and Risk Filament presentation module skeleton",
+  "type": "liberu-module",
+  "license": "MIT",
+  "require": {
+    "php": "^8.5",
+    "filament/filament": "^5.11"
+  },
+  "autoload": {
+    "psr-4": {
+      "Liberu\\Presentation\\Capabilityac54498e2ea6\\": "src/"
+    }
+  },
+  "scripts": {
+    "check": "@php -l src/CapabilityPlugin.php"
+  },
+  "extra": {
+    "liberu": {
+      "name": "ecommerce-fraud-and-risk-filament"
+    }
+  }
+}
